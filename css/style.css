@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    display: flex;
+    object-fit: cover;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    background: #36384D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #fff;
+    width: 928px;
+    border-radius: 36px;
+    box-shadow: 0px 15px 60px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+}
+
+.card__content {
+    padding-top: 98px;
+    padding-left: 64px;
+}
+
+.card__label {
+    color: #242742;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 100%;
+    margin-bottom: 24px;
+}
+
+.card__title {
+    color: #242742;
+    line-height: 150%;
+    font-feature-settings: 'clig' off, 'liga' off;
+    margin-bottom: 24px;
+}
+
+.card__sitenav {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.card__sitenav__item {}
+
+.card__sitenav__list {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 10px;
+}
+
+.card__email {}
+
+.card__label__email {
+    color: #242742;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+    margin-bottom: 8px;
+}
+
+.card__img {
+    padding: 24px 24px 24px 64px;
+}
+
+input {
+    border-radius: 8px;
+    height: 56px;
+    width: 376px;
+    padding-left: 24px;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-bottom: 24px;
+}
+
+input:hover {
+    transform: scale(1.1);
+}
+
+.card__btn {
+    width: 376px;
+    height: 56px;
+    border-radius: 8px;
+    background: var(--Dark-Navy, #242742);
+    color: #fff;
+    font-weight: 700;
+    line-height: 150%;
+    font-size: 16px;
+    transition: all 0.5;
+}
+
+.card__btn:hover {
+    transform: scale(1.1);
+    background: var(--Gradient-1, linear-gradient(204deg, #FF6A3A 0%, #FF527B 100%));
+    box-shadow: 0px 16px 32px 0px rgba(255, 97, 85, 0.50);
+    border: #FF527B;
+}
